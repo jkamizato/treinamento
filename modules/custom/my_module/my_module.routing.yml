@@ -1,0 +1,8 @@
+
+my_module.default_controller_hello:
+  path: '/my_module/hello/{name}'
+  defaults:
+    _controller: '\Drupal\my_module\Controller\DefaultController::hello'
+    _title: 'Titulo'
+  requirements:
+    _permission: 'access content'

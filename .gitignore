@@ -1,3 +1,4 @@
 deploy.php
 drush/*
 sites/default/files/*
+send

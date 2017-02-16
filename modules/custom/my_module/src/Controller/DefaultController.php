@@ -20,7 +20,8 @@ class DefaultController extends ControllerBase {
   public function hello($name) {
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Implement method: hello with parameter(s): @name', ['@name' => $name]),
+      '#markup' => $this->t('Implement method: hello with parameter(s): $name'),
     ];
   }
+
 }

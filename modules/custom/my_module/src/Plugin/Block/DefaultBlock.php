@@ -55,7 +55,8 @@ class DefaultBlock extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['default_block_page']['#markup'] = '<p>' . $this->configuration['page'] . '</p>';
+    $page = $this->configuration['page'];
+    $build['default_block_page']['#markup'] = '<div class="fb-page" data-href="https://www.facebook.com/' . $page . '" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/' . $page . '" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/' . $page . '">My module</a></blockquote></div>';
 
     return $build;
   }

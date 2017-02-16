@@ -1,6 +1,0 @@
-block.settings.default_block:
-  type: block_settings
-  mapping:
-    page:
-      type: label             
-      label: Custom Page

@@ -1,0 +1,14 @@
+uuid: e0a23338-4235-409a-ba11-0e43d3324b0e
+langcode: en
+status: true
+dependencies: {  }
+name: review_teaser
+label: 'Review teaser'
+effects:
+  ae5dbc26-59d5-4e5b-8b9a-1b89da61f429:
+    uuid: ae5dbc26-59d5-4e5b-8b9a-1b89da61f429
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 130
+      height: 100

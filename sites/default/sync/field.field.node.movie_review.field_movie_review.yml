@@ -1,0 +1,21 @@
+uuid: fd5b6f92-d71b-4f72-8a1d-84a08c2f416f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_review
+    - node.type.movie_review
+  module:
+    - text
+id: node.movie_review.field_movie_review
+field_name: field_movie_review
+entity_type: node
+bundle: movie_review
+label: 'Movie Review'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

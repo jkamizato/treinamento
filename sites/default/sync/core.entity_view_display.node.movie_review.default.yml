@@ -1,0 +1,66 @@
+uuid: 73682cc9-9bc5-47df-9fc5-b8f7a64eb2de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.movie_review.field_link_to_imdb
+    - field.field.node.movie_review.field_movie_genre
+    - field.field.node.movie_review.field_movie_image
+    - field.field.node.movie_review.field_movie_related
+    - field.field.node.movie_review.field_movie_review
+    - image.style.review_teaser
+    - node.type.movie_review
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.movie_review.default
+targetEntityType: node
+bundle: movie_review
+mode: default
+content:
+  field_link_to_imdb:
+    weight: 103
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_movie_genre:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_movie_image:
+    weight: 101
+    label: above
+    settings:
+      image_style: review_teaser
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_movie_related:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_movie_review:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

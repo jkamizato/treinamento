@@ -1,0 +1,14 @@
+uuid: 1c7e02a4-ae88-4b39-8e5b-76a09379740c
+name: Treinamento
+mail: jkamizato@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

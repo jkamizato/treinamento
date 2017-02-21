@@ -1,0 +1,38 @@
+uuid: 8db5e8c7-29b2-4947-9842-6555cc75f2f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_image
+    - node.type.movie_review
+  module:
+    - image
+id: node.movie_review.field_movie_image
+field_name: field_movie_image
+entity_type: node
+bundle: movie_review
+label: 'Movie Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

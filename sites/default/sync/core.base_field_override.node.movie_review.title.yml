@@ -1,0 +1,18 @@
+uuid: 178c909c-8719-42f0-86ee-7b307b4b815a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.movie_review
+id: node.movie_review.title
+field_name: title
+entity_type: node
+bundle: movie_review
+label: 'Movie Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

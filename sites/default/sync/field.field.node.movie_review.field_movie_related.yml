@@ -1,0 +1,27 @@
+uuid: c9845020-d0cc-44b7-84ec-c0cf1e0f7c71
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_related
+    - node.type.movie_review
+id: node.movie_review.field_movie_related
+field_name: field_movie_related
+entity_type: node
+bundle: movie_review
+label: 'Movie Related'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      movie_review: movie_review
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

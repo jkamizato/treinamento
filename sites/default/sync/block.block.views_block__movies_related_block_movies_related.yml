@@ -1,0 +1,32 @@
+uuid: 679fe848-c067-4fb7-84f7-cbaf7f591093
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.movies_related
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__movies_related_block_movies_related
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:movies_related-block_movies_related'
+settings:
+  id: 'views_block:movies_related-block_movies_related'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      movie_review: movie_review
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

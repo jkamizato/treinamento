@@ -1,5 +1,6 @@
-name: My custom module, by Júlio Kamizato
-description: This module is a example to study the structure
+name: My Custom Module
+description: This module is a example to study the structure. My Custom Module, by Júlio Kamizato
 package: Custom
 type: module
 core: 8.x
+version: 8.x-1.0

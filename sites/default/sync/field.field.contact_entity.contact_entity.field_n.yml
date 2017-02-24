@@ -1,0 +1,20 @@
+uuid: a90b5f04-0ff1-49b4-9867-6d3288bd1984
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.contact_entity.field_n
+  module:
+    - my_module
+id: contact_entity.contact_entity.field_n
+field_name: field_n
+entity_type: contact_entity
+bundle: contact_entity
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

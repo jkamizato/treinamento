@@ -1,6 +1,5 @@
-name: My Custom Module
-description: This module is a example to study the structure. My Custom Module, by Júlio Kamizato
-package: Custom
+name: My Module
 type: module
+description: My Awesome Module
 core: 8.x
-version: 8.x-1.0
+package: Custom

@@ -9,7 +9,6 @@ module:
   comment: 0
   config: 0
   contact: 0
-  content_entity_example: 0
   contextual: 0
   ctools: 0
   ctools_block: 0
@@ -19,19 +18,16 @@ module:
   devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
-  examples: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
-  geolocation: 0
   help: 0
   history: 0
   image: 0
   layout_plugin: 0
   link: 0
   menu_ui: 0
-  mymodule: 0
   node: 0
   options: 0
   page_cache: 0
@@ -52,7 +48,6 @@ module:
   views_ui: 0
   menu_link_content: 1
   views: 10
-  standard: 1000
 theme:
   stable: 0
   classy: 0

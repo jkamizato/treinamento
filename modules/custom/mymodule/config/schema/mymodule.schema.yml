@@ -1,0 +1,13 @@
+mymodule.announcement.*:
+  type: config_entity
+  label: 'Site announcement'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: string
+      label: 'Label'
+    message:
+      type: text
+      label: 'Text'

@@ -6,10 +6,10 @@ entity.announcement.add_form:
   requirements:
     _permission: 'administer content'
 
-#entity.announcement.collection:
-#  path: 'admin/config/system/site-announcements'
-#  defaults:
-#    _entity_list: 'announcement'
-#    _title: 'Site Announcements'
-#  requirements:
-#    _permission: 'administer content'
+entity.announcement.collection:
+  path: 'admin/config/system/site-announcements'
+  defaults:
+    _entity_list: 'announcement'
+    _title: 'Site Announcements'
+  requirements:
+    _permission: 'administer content'
